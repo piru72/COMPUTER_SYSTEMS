@@ -47,7 +47,7 @@
   <circuit name="main">
     <a name="circuit" val="main"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <a name="simulationFrequency" val="4000.0"/>
+    <a name="simulationFrequency" val="1000.0"/>
     <comp lib="5" loc="(1040,180)" name="Hex Digit Display">
       <a name="labelvisible" val="true"/>
     </comp>
@@ -705,7 +705,7 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="ControlUnit"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="32.0"/>
+    <a name="simulationFrequency" val="2048000.0"/>
     <appear>
       <rect fill="none" height="40" stroke="#000000" width="220" x="60" y="124"/>
       <circ-anchor facing="east" x="270" y="60"/>
