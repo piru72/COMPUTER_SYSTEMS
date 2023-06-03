@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2023-05-31T06:13:40.446Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="YUz--lJoHIdcsitvyz7e" version="21.3.6" type="google">
+  <diagram name="Page-1" id="4zGhDKtHrs3VmQHYQ1Vf">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G90E3mLzfoN95L7KkoNh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.6;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G90E3mLzfoN95L7KkoNh-1" target="G90E3mLzfoN95L7KkoNh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G90E3mLzfoN95L7KkoNh-1" target="G90E3mLzfoN95L7KkoNh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.378;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G90E3mLzfoN95L7KkoNh-1" target="G90E3mLzfoN95L7KkoNh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-1" value="WHEN NO OTHER VALID KEY IS PRESSED THIS FUNCTION WILL CALL THE FUNCTIONS BELOW" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="355" y="80" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-2" value="FUNCTION_START_WATCH:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-3" value="PROVIDES ONE SECOND OF REALTIME DELAY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G90E3mLzfoN95L7KkoNh-4" target="G90E3mLzfoN95L7KkoNh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-4" value="FUNCTION_ONE_SECOND_DELAY&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-5" value="SHOWS THE CURRENT TIME" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-6" value="FUNCTION_SHOW_MINUTE_SECOND&amp;nbsp; &amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-7" value="UPDATE THE CURRENT TIME BY ONE SECOND" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-8" value="FUNCTION_UPDATE_WATCH_BY_ONE_SECOND&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-12" value="TOGGLES THE PIXEL COLOR OF THE SCREEN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-13" value="FUNCTION_TOGGLE_PIXEL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="G90E3mLzfoN95L7KkoNh-15" target="G90E3mLzfoN95L7KkoNh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-15" value="RESETS ALL THE REGISTERS AND SHOWS THE CURRENT TIME" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="550" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-16" value="FUNCTION_RESET_WATCH:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="G90E3mLzfoN95L7KkoNh-17" target="G90E3mLzfoN95L7KkoNh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-17" value="SPLITS THE TIME AND STORES THEM INTO A REGISTER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="550" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G90E3mLzfoN95L7KkoNh-18" value="FUNCTION_SPLIT_TIME" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
