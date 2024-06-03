@@ -25,3 +25,36 @@ The "Split" button allows recording and displaying intermediate times or lap tim
 
 ### Stage 6: Implement "Split" time recording and multi-"Split" display
 In this stage, the circuit allows recording up to 5 separate "Split" times during a single timed activity. It uses flip flops to store the split times. When the stopwatch is active, the circuit records the current "Split" time when the "Split" button is pressed. It retains the last 5 split times and displays the most recent split time on the "Split Time" display. When the Reset button is pressed, all recorded split times are set to 0.
+
+## Images 
+
+### Full View
+![Full Image](image.png)
+
+### Left Side
+![alt text](image-1.png)
+
+### Right Side
+![alt text](image-2.png)
+
+### BCD Counter
+![alt text](image-3.png)
+
+### Upto 5 Counter Time
+
+![alt text](image-4.png)
+
+### Control Unit
+![alt text](image-5.png)
+
+### Elapsed Time Display
+
+![alt text](image-6.png)
+
+### Split Time Display
+
+![alt text](image-7.png)
+
+### 4 Bit DFF
+
+![alt text](image-8.png)
