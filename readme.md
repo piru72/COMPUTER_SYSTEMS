@@ -10,6 +10,9 @@ In this project, I designed and implemented digital circuits using Logisim. The 
 
 The second project involved writing programs in assembly language for a specific architecture. I learned how to use assembly instructions to perform tasks such as arithmetic operations, memory manipulation, and control flow.
 
+## K MAP and SOP
+
+This directory contains details implementation of K MAP , SOP , POS concepts along with Practical explanations.
 
 Feel free to explore the individual project folders for more details, source code, and documentation.
 
